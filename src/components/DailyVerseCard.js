@@ -52,7 +52,7 @@ const DailyVerseCard = ({ verse, day, date, verseText }) => {
                         color: '#93989D',
                         textDecoration: 'underline',
                     }}>
-                        {verse || 'Revelation 22'} {/* Verse reference */}
+                        {verse} {/* Verse reference */}
                     </Typography>
                 </Box>
 
