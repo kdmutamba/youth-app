@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.857da7c1.css",
-    "main.js": "/static/js/main.854c76f1.js",
-    "static/js/488.ab558f7e.chunk.js": "/static/js/488.ab558f7e.chunk.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/testimonies.svg": "/static/media/testimonies.17ccf9bf0ff1190a56ff4b23760afc57.svg",
-    "static/media/testimonies_filled.svg": "/static/media/testimonies_filled.94571f65b0a2342f0b293293e4b36065.svg",
-    "static/media/music.svg": "/static/media/music.c0fe1304f3c2b891d9abd5f1f3054d56.svg",
-    "static/media/music_filled.svg": "/static/media/music_filled.85f76a931e443ad5dc6e187dcab7d429.svg",
-    "static/media/home.svg": "/static/media/home.98dda7c32a02c9075436ab7afdcc9604.svg",
-    "static/media/search.svg": "/static/media/search.9e406dbd5f19cc7dc16049dd6451084e.svg",
-    "static/media/search_filled.svg": "/static/media/search_filled.1515172022a275b8ba51a2bf85c76b3b.svg",
-    "index.html": "/index.html",
-    "static/media/home_filled.svg": "/static/media/home_filled.b08e75032fd26b13a78c80b0307ddb49.svg",
-    "main.857da7c1.css.map": "/static/css/main.857da7c1.css.map",
-    "main.854c76f1.js.map": "/static/js/main.854c76f1.js.map",
-    "488.ab558f7e.chunk.js.map": "/static/js/488.ab558f7e.chunk.js.map"
+    "main.css": "/youth-app/static/css/main.857da7c1.css",
+    "main.js": "/youth-app/static/js/main.59a61e2a.js",
+    "static/js/488.ab558f7e.chunk.js": "/youth-app/static/js/488.ab558f7e.chunk.js",
+    "service-worker.js": "/youth-app/service-worker.js",
+    "static/media/testimonies.svg": "/youth-app/static/media/testimonies.17ccf9bf0ff1190a56ff4b23760afc57.svg",
+    "static/media/testimonies_filled.svg": "/youth-app/static/media/testimonies_filled.94571f65b0a2342f0b293293e4b36065.svg",
+    "static/media/music.svg": "/youth-app/static/media/music.c0fe1304f3c2b891d9abd5f1f3054d56.svg",
+    "static/media/music_filled.svg": "/youth-app/static/media/music_filled.85f76a931e443ad5dc6e187dcab7d429.svg",
+    "static/media/home.svg": "/youth-app/static/media/home.98dda7c32a02c9075436ab7afdcc9604.svg",
+    "static/media/search.svg": "/youth-app/static/media/search.9e406dbd5f19cc7dc16049dd6451084e.svg",
+    "static/media/search_filled.svg": "/youth-app/static/media/search_filled.1515172022a275b8ba51a2bf85c76b3b.svg",
+    "index.html": "/youth-app/index.html",
+    "static/media/home_filled.svg": "/youth-app/static/media/home_filled.b08e75032fd26b13a78c80b0307ddb49.svg",
+    "main.857da7c1.css.map": "/youth-app/static/css/main.857da7c1.css.map",
+    "main.59a61e2a.js.map": "/youth-app/static/js/main.59a61e2a.js.map",
+    "488.ab558f7e.chunk.js.map": "/youth-app/static/js/488.ab558f7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.857da7c1.css",
-    "static/js/main.854c76f1.js"
+    "static/js/main.59a61e2a.js"
   ]
 }
