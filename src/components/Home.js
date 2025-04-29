@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "./Header";
 import { Box, Typography } from '@mui/material';
 import DailyVerseCard from "./DailyVerseCard";
@@ -73,6 +73,34 @@ const DailyVerseCards = [
 
 
 export const Home = () => {
+
+    const [verseCards, setCards] = useState(DailyVerseCards);
+
+    const getVerse = async () => {
+        return  await fetch('https://beta.ourmanna.com/api/v1/');
+    }
+
+    const mapToVerse = (verseResponse) => {
+        console.log({verseResponse});
+        const response  = verseResponse.split(' - ')
+        console.log({response});
+        return [response[0], response[1]];
+    }
+
+    useEffect(() => {
+        getVerse().then(response => {
+            return response.text();
+        }).then(text => {
+            const mappedVerse = mapToVerse(text);
+            console.log({mappedVerse});
+            const found = verseCards.find(card => card.day === 'Today');
+            console.log({found});
+            found.verse = mappedVerse[1];
+            found.verseText = mappedVerse[0];
+
+        })
+    }, []);
+
     return (<div>
         <Header title='Welcome back!' subtitle='How do you feel today?'/>
         <div
@@ -91,7 +119,7 @@ export const Home = () => {
                 verseText="And, behold, I come quickly; and my reward is with me, to give every man according as his work shall be."
             />
             {
-                DailyVerseCards.map(card => <DailyVerseCard
+                verseCards.map(card => <DailyVerseCard
                     verse={card.verse}
                     verseText={card.verseText}
                     date={card.date}
